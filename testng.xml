@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="E-Commerce Automation Suite" parallel="tests" thread-count="3">
+
+    <!-- Global parameters -->
+    <parameter name="browser" value="chrome"/>
+    <parameter name="headless" value="false"/>
+
+    <listeners>
+        <listener class-name="com.demo.listeners.TestListener"/>
+    </listeners>
+
+    <!-- Login Tests -->
+    <test name="Login Tests">
+        <classes>
+            <class name="com.demo.tests.LoginTest"/>
+        </classes>
+    </test>
+
+    <!-- Product Tests -->
+    <test name="Product Tests">
+        <classes>
+            <class name="com.demo.tests.ProductTest"/>
+        </classes>
+    </test>
+
+    <!-- Cart Tests -->
+    <test name="Cart Tests">
+        <classes>
+            <class name="com.demo.tests.CartTest"/>
+        </classes>
+    </test>
+
+</suite>
+
