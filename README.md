@@ -1,5 +1,8 @@
 # Automation Testing Framework – E-Commerce 
-
+![Java 17](https://img.shields.io/badge/Java_17-ED8B00?style=flat-square&logo=java&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium_4-43B02A?style=flat-square&logo=selenium&logoColor=white)
+![TestNG](https://img.shields.io/badge/TestNG_7-FF7F00?style=flat-square)
+![Maven](https://img.shields.io/badge/Maven_3-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
 ## Tổng quan
 
 Project automation test cho website thương mại điện tử **SauceDemo** (saucedemo.com).
